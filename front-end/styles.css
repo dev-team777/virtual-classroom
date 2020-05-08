@@ -1,0 +1,14 @@
+html{
+    margin: -8px;
+}
+.cabecera{
+    display:flex;
+    flex-direction: row;
+    background-color: #0F1E20;
+}
+.logo-tittle{
+    font: 35px sans-serif;
+    color: white;
+    margin-left: 5px;
+    margin-top: 5px;
+}
