@@ -2,25 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
+    <link rel="stylesheet" href="normalize.css" />	
     <link rel="stylesheet" href="styles.css">
     <title>Login</title>
 </head>
 <body>
     <div class="cabecera">
         <div class="logo-image box"> 
-            <img src="/icons/logo-icon_2.png" alt="Logo">
+            <img src="../icons/logo-icon_2.png" alt="Logo">
         </div>
         <div class="logo-tittle box">
             <div>Escuela Superior de Formación </div>
             <div>Artística - Bellas Artes</div>
-            <div>Macedonio de la Torre</div>                            
+            <div>Macedonio de la Torre</div>
         </div>
     </div>
-
-</body>
-<footer>
-    <div>© Copyright 2020 Escuela Superior De Bellas Artes
+    <div class="body">
+        <div class="red-margin">
+            <div class="white-inside">
+                <input type="text" placeholder="Correo" class="form-control box username">
+                <input type="text" placeholder="Contraseña" class="form-control box password">
+                <button class="btn btn-primary">Ingresar</button>
+                <a href="index.html">¿Olvidaste tu contraseña?</a>
+            </div>
+        </div>
     </div>
-</footer>
+		<div class="page-footer container-footer">
+			<h4>© Copyright 2020 Escuela Superior De Bellas Artes</h4>
+		</div>
+</body>
+
 </html>
